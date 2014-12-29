@@ -2,4 +2,11 @@ my vim settings
 
  + omni completion, embeded in vim7
  + tag list, http://www.vim.org/scripts/script.php?script_id=273
+ + winmanager
+ + MiniBufExplorer
+ + Grep
+ + pyflakes
+
+[win32]
+ * set vimfiles\bin to PATH
 

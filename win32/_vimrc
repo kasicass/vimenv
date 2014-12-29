@@ -1,0 +1,26 @@
+syn on
+set tabstop=2
+set nobackup
+set background=dark
+colorscheme desert
+set guifont=Courier\ New:h12
+
+" Omni Completion
+filetype plugin on
+set omnifunc=syntaxcomplete#Complete
+
+" TagList
+" set Tlist_Ctags_Cmd=`$VIM\vimfiles\bin\ctags.exe`
+
+" WinManager
+let g:winManagerWindowLayout='FileExplorer|TagList'
+nmap wm :WMToggle<cr>
+
+" MiniBufExplorer
+let g:miniBufExplMapWindowNavVim = 1 
+let g:miniBufExplMapWindowNavArrows = 1 
+let g:miniBufExplMapCTabSwitchBufs = 1 
+let g:miniBufExplModSelTarget = 1
+
+" Grep
+nnoremap <silent> <F3> :Grep<cr>
